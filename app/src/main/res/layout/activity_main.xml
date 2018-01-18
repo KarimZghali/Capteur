@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="fr.m2i.capteur.MainActivity">
+
+<TextView
+    android:layout_width="wrap_content"
+    android:id="@+id/lumens"
+    android:layout_height="wrap_content"
+    android:text="GO !"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/accel"
+        android:layout_height="wrap_content"
+        android:text="GO !"/>
+
+    <Button
+        android:id="@+id/button"
+        android:onClick="lumens"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Aziz lumiere !!!" />
+
+    <Button
+        android:id="@+id/button2"
+        android:onClick="gravite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gravité" />
+
+
+</LinearLayout>
