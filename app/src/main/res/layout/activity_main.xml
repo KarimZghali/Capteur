@@ -25,7 +25,7 @@
         android:onClick="lumens"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Aziz lumiere !!!" />
+        android:text="Lumiere !!!" />
 
     <Button
         android:id="@+id/button2"
